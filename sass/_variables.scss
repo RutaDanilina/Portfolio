@@ -1,0 +1,29 @@
+//spalvos
+$-light-1: #ffffff;
+$-light-2: rgba(255, 255, 255, 0.9);
+
+$-dark-1: #272525;
+$-dark-2: rgb(0, 0, 0);
+
+/////////////////////
+//media queries
+
+//desktop
+$max_screen_1: 1540px;
+$max_screen_2: 1440px;
+$max_screen_3: 1340px;
+$max_screen_4: 1240px;
+$max_screen_5: 1140px;
+$max_screen_6: 1040px;
+
+//tablet
+$mid_screen_1: 940px;
+$mid_screen_2: 840px;
+$mid_screen_3: 740px;
+$mid_screen_4: 640px;
+
+//tel
+$min_screen_1: 540px;
+$min_screen_2: 440px;
+$min_screen_3: 340px;
+$min_screen_4: 240px;

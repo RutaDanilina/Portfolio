@@ -1,0 +1,42 @@
+@import "_variables.scss";
+@import "_header.scss";
+@import "_skills.scss";
+@import "_works.scss";
+@import "_contact.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  margin: auto;
+  font-family: "Jura", sans-serif;
+  color: beige;
+  padding-top: 3rem;
+}
+
+//bendri
+a {
+  text-decoration: none;
+}
+
+//footer
+footer {
+  height: 4rem;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  color: #7b7979;
+  background-color: black;
+  position: fixed;
+  padding-top: 1rem;
+  bottom: 0;
+}

@@ -1,0 +1,190 @@
+#contact-me {
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-me {
+  width: 100%;
+  padding-bottom: 8rem;
+
+  h1 {
+    float: left;
+    padding: 1rem 0 3rem 3rem;
+    letter-spacing: 0.6rem;
+    color: $-dark-2;
+    margin-right: 5rem;
+  }
+}
+
+form {
+  margin: auto;
+  width: 50%;
+
+  input {
+    padding: 0 3rem;
+    text-align: center;
+  }
+  textarea {
+    padding: 0 3rem;
+    text-align: center;
+  }
+
+  element.style {
+    margin: 0px -2.54261px 0px 0px;
+    width: 50%;
+  }
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: $-dark-1;
+}
+
+.hover-messages {
+  display: flex;
+  width: 100%;
+
+  .send,
+  .visit {
+    position: absolute;
+  }
+
+  .send-img {
+    display: none;
+    position: absolute;
+    height: 13rem;
+    width: auto;
+    left: -10rem;
+    bottom: -4rem;
+  }
+
+  .visit-img {
+    display: none;
+    position: absolute;
+    height: 11rem;
+    width: auto;
+    left: 5rem;
+    bottom: 5rem;
+  }
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+
+  .i-git,
+  .i-mail {
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+
+  .i-mail-pic {
+    position: relative;
+    background-image: url("/img/mail-button.png");
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    height: 6rem;
+    width: 7rem;
+  }
+
+  .i-git-pic {
+    position: relative;
+    background-image: url("/img/github-button.png");
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    height: 5.4rem;
+    width: 7rem;
+  }
+}
+
+// //media queries
+
+@media only screen and (max-width: 600px) {
+  #contact-me {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 0.4rem;
+    }
+  }
+
+  .hover-messages {
+    .send-img {
+      display: block !important;
+      height: 9rem;
+      left: -7rem;
+      bottom: -4rem;
+    }
+
+    .visit-img {
+      display: block !important;
+      height: 8rem;
+      left: 4.5rem;
+      bottom: 4.5rem;
+    }
+  }
+
+  .icons {
+    .i-mail-pic {
+      height: 4.2rem;
+      width: 6rem;
+    }
+
+    .i-git-pic {
+      height: 4.4rem;
+      width: 6rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  #contact-me {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 0.4rem;
+    }
+  }
+
+  .hover-messages {
+    .send-img {
+      display: block !important;
+      height: 9rem;
+      left: -7rem;
+      bottom: -4rem;
+    }
+
+    .visit-img {
+      display: block !important;
+      height: 8rem;
+      left: 4.5rem;
+      bottom: 4.5rem;
+    }
+  }
+
+  .icons {
+    .i-mail-pic {
+      height: 4.2rem;
+      width: 6rem;
+    }
+
+    .i-git-pic {
+      height: 4.4rem;
+      width: 6rem;
+    }
+  }
+}

@@ -1,0 +1,571 @@
+#head {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 40rem; }
+
+.logo {
+  letter-spacing: 0.5rem; }
+
+.navbar-inverse {
+  background-color: black;
+  border-color: #272525; }
+
+nav .navbar-brand {
+  font-size: 2rem; }
+nav .navbar-toggle {
+  margin: 1.3rem 1.5rem 1.3rem 0; }
+nav a {
+  font-size: 1.8rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  transition: all 0.3s ease;
+  text-align: right; }
+
+nav.navbar.shrink {
+  min-height: 2rem; }
+  nav.navbar.shrink .navbar-brand {
+    font-size: 1.5rem; }
+  nav.navbar.shrink a {
+    font-size: 1.5rem;
+    padding-bottom: 1rem !important;
+    padding-top: 1rem !important; }
+  nav.navbar.shrink .navbar-toggle {
+    margin: 0.8rem 1.5rem 0.8rem 0;
+    padding: 0.4rem 0.5rem; }
+
+.prisistatymas {
+  float: right;
+  text-align: right;
+  height: 20rem;
+  z-index: 20;
+  margin: 18rem 0 3rem 5rem;
+  position: relative;
+  border: 0.2rem solid #ffffff;
+  padding: 2rem 2rem 2rem 6rem;
+  left: 51rem; }
+  .prisistatymas h1 {
+    width: 100%;
+    letter-spacing: 1rem;
+    line-height: 4rem; }
+
+.foto {
+  flex: 1;
+  float: right;
+  width: 50%;
+  height: 40rem; }
+  .foto-juda {
+    opacity: 0.8;
+    width: auto;
+    height: 40rem;
+    float: right; }
+
+@media only screen and (max-width: 600px) {
+  #head {
+    height: 30rem; }
+
+  .navbar-toggle {
+    float: right;
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    border-radius: 0.4rem;
+    padding: 0.9rem 1rem; }
+
+  .container {
+    width: 90%;
+    padding-right: 0.5rem;
+    padding-left: 1;
+    margin-left: 2rem; }
+
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 1px; }
+
+  nav .navbar-toggle {
+    margin: 1.2rem 1.2rem 1.2rem 0; }
+
+  nav.navbar.shrink .navbar-toggle {
+    margin: 0.8rem 0.8rem 0.8rem 0;
+    padding: 0.4rem 0.5rem; }
+
+  .container-fluid > .navbar-collapse,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container > .navbar-header {
+    margin-right: 0;
+    margin-left: 0; }
+
+  .navbar-brand {
+    float: left;
+    height: 5rem;
+    padding: 1.8rem 0 0 0;
+    font-size: 1.8rem;
+    line-height: 2rem; }
+
+  .prisistatymas {
+    height: 11rem;
+    padding: 1rem;
+    left: 13rem; }
+    .prisistatymas h1 {
+      font-size: 2rem;
+      letter-spacing: 0.5rem;
+      line-height: 2.5rem; }
+
+  .foto {
+    height: 30rem; }
+    .foto-juda {
+      height: 30rem; } }
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  #head {
+    height: 30rem; }
+
+  .navbar-toggle {
+    float: right;
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    border-radius: 0.4rem;
+    padding: 0.9rem 1rem; }
+
+  .container {
+    width: 90%;
+    padding-right: 0.5rem;
+    padding-left: 1;
+    margin-left: 2rem; }
+
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 1px; }
+
+  nav .navbar-toggle {
+    margin: 1.2rem 1.2rem 1.2rem 0; }
+
+  nav.navbar.shrink .navbar-toggle {
+    margin: 0.8rem 0.8rem 0.8rem 0;
+    padding: 0.4rem 0.5rem; }
+
+  .container-fluid > .navbar-collapse,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container > .navbar-header {
+    margin-right: 0;
+    margin-left: 0; }
+
+  .navbar-brand {
+    float: left;
+    height: 5rem;
+    padding: 1.8rem 0 0 0;
+    font-size: 1.8rem;
+    line-height: 2rem; }
+
+  .prisistatymas {
+    height: 13rem;
+    width: 25rem;
+    padding: 1rem;
+    left: 15rem;
+    bottom: 2.5rem; }
+    .prisistatymas h1 {
+      font-size: 2.5rem;
+      margin: 1rem 1rem 3rem 1rem;
+      letter-spacing: 0.6rem;
+      line-height: 2.9rem; }
+
+  .foto {
+    height: 30rem; }
+    .foto-juda {
+      height: 30rem; } }
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  #head {
+    width: 100%;
+    height: 40rem; }
+
+  .logo {
+    letter-spacing: 0.8rem; }
+
+  nav .navbar-brand {
+    font-size: 2.2rem; }
+  nav .navbar-toggle {
+    margin: 1.3rem 1.3rem 1.3rem 0; }
+  nav a {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    transition: all 0.3s ease;
+    text-align: right; }
+
+  nav.navbar.shrink {
+    min-height: 2rem; }
+    nav.navbar.shrink .navbar-brand {
+      font-size: 1.5rem; }
+    nav.navbar.shrink a {
+      font-size: 1.5rem;
+      padding-bottom: 1rem !important;
+      padding-top: 1rem !important; }
+    nav.navbar.shrink .navbar-toggle {
+      margin: 0.8rem 1.5rem 0.8rem 0;
+      padding: 0.4rem 0.5rem; }
+
+  .navbar-toggle {
+    float: right;
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    border-radius: 0.4rem;
+    padding: 0.9rem 1rem; }
+
+  .container {
+    width: 90%;
+    padding-right: 0.5rem;
+    padding-left: 1;
+    margin-left: 2rem; }
+
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 1px; }
+
+  nav .navbar-toggle {
+    margin: 1.2rem 1.2rem 1.2rem 0; }
+
+  nav.navbar.shrink .navbar-toggle {
+    margin: 0.8rem 0.8rem 0.8rem 0;
+    padding: 0.4rem 0.5rem; }
+
+  .container-fluid > .navbar-collapse,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container > .navbar-header {
+    margin-right: 0;
+    margin-left: 0; }
+
+  .navbar-brand {
+    float: left;
+    height: 5rem;
+    padding: 1.8rem 0 0 0;
+    font-size: 1.8rem;
+    line-height: 2rem; }
+
+  .prisistatymas {
+    float: right;
+    text-align: right;
+    height: 17rem;
+    z-index: 20;
+    margin: 17rem 0 0 0;
+    position: relative;
+    border: 0.2rem solid #ffffff;
+    padding: 2rem 2rem 2rem 6rem;
+    left: 25rem; }
+    .prisistatymas h1 {
+      width: 100%;
+      letter-spacing: 1rem;
+      line-height: 4rem; }
+
+  .foto {
+    flex: 1;
+    float: right;
+    width: 50%;
+    height: 40rem; }
+    .foto-juda {
+      opacity: 0.8;
+      width: auto;
+      height: 40rem;
+      float: right; } }
+#skills {
+  width: 100%;
+  height: auto;
+  padding-bottom: 5rem; }
+
+.sklills-tekstas {
+  margin: 6rem 0 5rem 2rem; }
+  .sklills-tekstas h1 {
+    padding: 1rem;
+    letter-spacing: 0.6rem;
+    color: black; }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.card {
+  width: 14rem;
+  text-align: center;
+  padding: 1.5rem 1rem 1rem 1rem;
+  font-size: 1rem; }
+  .card img {
+    align-items: center;
+    height: 7rem;
+    width: auto;
+    padding-bottom: 1rem; }
+  .card i {
+    color: black; }
+
+@media only screen and (max-width: 600px) {
+  .sklills-tekstas {
+    margin: 4rem 0 2rem 2rem; }
+    .sklills-tekstas h1 {
+      font-size: 3rem;
+      letter-spacing: 0.4rem; }
+
+  .card {
+    width: 13rem;
+    font-size: 0.9rem; }
+    .card img {
+      height: 6rem; } }
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .sklills-tekstas {
+    margin: 4rem 0 2rem 2rem; }
+    .sklills-tekstas h1 {
+      font-size: 3rem;
+      letter-spacing: 0.4rem; }
+
+  .card {
+    width: 13rem;
+    font-size: 1.1rem; }
+    .card img {
+      height: 6rem; } }
+#darbai {
+  padding: 3.5rem 0 3.3rem 0;
+  width: 100%;
+  height: 45rem;
+  background-color: black; }
+  #darbai h1 {
+    width: 100%;
+    float: left;
+    padding: 1rem 0 2rem 3rem;
+    letter-spacing: 0.6rem;
+    color: #ffffff;
+    margin-right: 5rem; }
+
+#section_abbout-us {
+  height: 15rem;
+  width: 100%;
+  position: absolute; }
+  #section_abbout-us video {
+    width: 50%;
+    position: relative; }
+  #section_abbout-us .slider {
+    max-width: 100rem;
+    height: 30rem;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    top: 11rem; }
+  #section_abbout-us .slide {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s; }
+  #section_abbout-us .slider__btn {
+    position: absolute;
+    top: 30%;
+    z-index: 10;
+    border: none;
+    background: rgba(255, 255, 255, 0.9);
+    font-family: inherit;
+    color: #272525;
+    border-radius: 50%;
+    height: 4.5rem;
+    width: 4.5rem;
+    font-size: 3rem;
+    cursor: pointer; }
+  #section_abbout-us .slider__btn--left {
+    left: 15%;
+    transform: translate(-50%, -50%); }
+  #section_abbout-us .slider__btn--right {
+    right: 15%;
+    transform: translate(50%, -50%); }
+
+@media only screen and (max-width: 600px) {
+  #darbai h1 {
+    font-size: 3rem;
+    letter-spacing: 0.4rem; }
+
+  #section_abbout-us .slider__btn {
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 1.5rem; } }
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  #darbai h1 {
+    font-size: 3rem;
+    letter-spacing: 0.4rem; }
+
+  #section_abbout-us .slider__btn {
+    height: 3.5rem;
+    width: 3.5rem;
+    font-size: 1.8rem; } }
+#contact-me {
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  text-align: center; }
+
+.contact-me {
+  width: 100%;
+  padding-bottom: 8rem; }
+  .contact-me h1 {
+    float: left;
+    padding: 1rem 0 3rem 3rem;
+    letter-spacing: 0.6rem;
+    color: black;
+    margin-right: 5rem; }
+
+form {
+  margin: auto;
+  width: 50%; }
+  form input {
+    padding: 0 3rem;
+    text-align: center; }
+  form textarea {
+    padding: 0 3rem;
+    text-align: center; }
+  form element.style {
+    margin: 0px -2.54261px 0px 0px;
+    width: 50%; }
+
+.form-control:focus {
+  outline: none;
+  border-color: #272525; }
+
+.hover-messages {
+  display: flex;
+  width: 100%; }
+  .hover-messages .send,
+  .hover-messages .visit {
+    position: absolute; }
+  .hover-messages .send-img {
+    display: none;
+    position: absolute;
+    height: 13rem;
+    width: auto;
+    left: -10rem;
+    bottom: -4rem; }
+  .hover-messages .visit-img {
+    display: none;
+    position: absolute;
+    height: 11rem;
+    width: auto;
+    left: 5rem;
+    bottom: 5rem; }
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin: auto; }
+  .icons .i-git,
+  .icons .i-mail {
+    padding: 1rem;
+    margin: 0.5rem; }
+  .icons .i-mail-pic {
+    position: relative;
+    background-image: url("/img/mail-button.png");
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    height: 6rem;
+    width: 7rem; }
+  .icons .i-git-pic {
+    position: relative;
+    background-image: url("/img/github-button.png");
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    height: 5.4rem;
+    width: 7rem; }
+
+@media only screen and (max-width: 600px) {
+  #contact-me {
+    padding-top: 2rem;
+    padding-bottom: 5rem; }
+    #contact-me h1 {
+      font-size: 3rem;
+      letter-spacing: 0.4rem; }
+
+  .hover-messages .send-img {
+    display: block !important;
+    height: 9rem;
+    left: -7rem;
+    bottom: -4rem; }
+  .hover-messages .visit-img {
+    display: block !important;
+    height: 8rem;
+    left: 4.5rem;
+    bottom: 4.5rem; }
+
+  .icons .i-mail-pic {
+    height: 4.2rem;
+    width: 6rem; }
+  .icons .i-git-pic {
+    height: 4.4rem;
+    width: 6rem; } }
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  #contact-me {
+    padding-top: 2rem;
+    padding-bottom: 5rem; }
+    #contact-me h1 {
+      font-size: 3rem;
+      letter-spacing: 0.4rem; }
+
+  .hover-messages .send-img {
+    display: block !important;
+    height: 9rem;
+    left: -7rem;
+    bottom: -4rem; }
+  .hover-messages .visit-img {
+    display: block !important;
+    height: 8rem;
+    left: 4.5rem;
+    bottom: 4.5rem; }
+
+  .icons .i-mail-pic {
+    height: 4.2rem;
+    width: 6rem; }
+  .icons .i-git-pic {
+    height: 4.4rem;
+    width: 6rem; } }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  width: 100%;
+  margin: auto;
+  font-family: "Jura", sans-serif;
+  color: beige;
+  padding-top: 3rem; }
+
+a {
+  text-decoration: none; }
+
+footer {
+  height: 4rem;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  color: #7b7979;
+  background-color: black;
+  position: fixed;
+  padding-top: 1rem;
+  bottom: 0; }
+
+/*# sourceMappingURL=style.css.map */
