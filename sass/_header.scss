@@ -83,7 +83,84 @@ nav.navbar.shrink {
 }
 
 //media queries
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 390px) {
+  #head {
+    height: 25rem;
+  }
+
+  .navbar-toggle {
+    float: right;
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    border-radius: 0.4rem;
+    padding: 0.9rem 1rem;
+  }
+
+  .container {
+    width: 95%;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 0.1rem;
+  }
+  nav .navbar-toggle {
+    margin: 1.2rem 1.2rem 1.2rem 0;
+  }
+
+  nav.navbar.shrink .navbar-toggle {
+    margin: 0.8rem 0.8rem 0.8rem 0;
+    padding: 0.4rem 0.5rem;
+  }
+
+  .container-fluid > .navbar-collapse,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container > .navbar-header {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .navbar-brand {
+    float: left;
+    height: 5rem;
+    padding: 1.8rem 0 0 0;
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+
+  //header
+  .prisistatymas {
+    height: 11rem;
+    padding: 1rem;
+    width: 20rem;
+    margin: 12rem 1rem 1rem 1rem;
+    left: 5rem;
+
+    h1 {
+      font-size: 2rem;
+      letter-spacing: 0.5rem;
+      line-height: 2.5rem;
+    }
+  }
+
+  .foto {
+    height: 25rem;
+
+    &-juda {
+      height: 25rem;
+    }
+  }
+}
+
+
+@media only screen and (min-width: 391px) and (max-width: 600px) {
   #head {
     height: 30rem;
   }
@@ -140,7 +217,7 @@ nav.navbar.shrink {
   .prisistatymas {
     height: 11rem;
     padding: 1rem;
-    left: 13rem;
+    left: 10rem;
 
     h1 {
       font-size: 2rem;
