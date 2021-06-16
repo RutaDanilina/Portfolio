@@ -60,7 +60,7 @@ nav.navbar.shrink {
     height: 40rem;
     float: right; }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 411px) {
   #head {
     height: 25rem; }
 
@@ -76,7 +76,8 @@ nav.navbar.shrink {
     width: 95%;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
-    margin-left: 0.5rem; }
+    margin-left: 0.2rem;
+    margin-right: 0.2rem; }
 
   .navbar-toggle .icon-bar {
     display: block;
@@ -109,8 +110,8 @@ nav.navbar.shrink {
     height: 11rem;
     padding: 1rem;
     width: 20rem;
-    margin: 12rem 1rem 1rem 1rem;
-    left: 5rem; }
+    margin: 12rem 0 0 0;
+    left: 2.5rem; }
     .prisistatymas h1 {
       font-size: 2rem;
       letter-spacing: 0.5rem;
@@ -120,7 +121,7 @@ nav.navbar.shrink {
     height: 25rem; }
     .foto-juda {
       height: 25rem; } }
-@media only screen and (min-width: 361px) and (max-width: 600px) {
+@media only screen and (min-width: 412px) and (max-width: 495px) {
   #head {
     height: 30rem; }
 
@@ -135,14 +136,14 @@ nav.navbar.shrink {
   .container {
     width: 90%;
     padding-right: 0.5rem;
-    padding-left: 1;
-    margin-left: 2rem; }
+    padding-left: 1rem;
+    margin-left: 1rem; }
 
   .navbar-toggle .icon-bar {
     display: block;
     width: 0.1rem;
     height: 0.1rem;
-    border-radius: 1px; }
+    border-radius: 0.1rem; }
 
   nav .navbar-toggle {
     margin: 1.2rem 1.2rem 1.2rem 0; }
@@ -168,7 +169,7 @@ nav.navbar.shrink {
   .prisistatymas {
     height: 11rem;
     padding: 1rem;
-    left: 10rem; }
+    left: 3rem; }
     .prisistatymas h1 {
       font-size: 2rem;
       letter-spacing: 0.5rem;
@@ -178,7 +179,67 @@ nav.navbar.shrink {
     height: 30rem; }
     .foto-juda {
       height: 30rem; } }
-@media only screen and (min-width: 600px) and (max-width: 900px) {
+@media only screen and (min-width: 496px) and (max-width: 550px) {
+  #head {
+    height: 28rem; }
+
+  .navbar-toggle {
+    float: right;
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    border-radius: 0.4rem;
+    padding: 0.9rem 1rem; }
+
+  .container {
+    width: 100%;
+    padding-right: 0rem;
+    padding-left: 1rem;
+    margin-right: 0;
+    margin-left: 0.2rem; }
+
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 0.1rem; }
+
+  nav .navbar-toggle {
+    margin: 1.2rem 1.2rem 1.2rem 0; }
+
+  nav.navbar.shrink .navbar-toggle {
+    margin: 0.8rem 0.8rem 0.8rem 0;
+    padding: 0.4rem 0.5rem; }
+
+  .container-fluid > .navbar-collapse,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container > .navbar-header {
+    margin-right: 0;
+    margin-left: 0; }
+
+  .navbar-brand {
+    float: left;
+    height: 5rem;
+    padding: 1.8rem 0 0 0;
+    font-size: 1.8rem;
+    line-height: 2rem; }
+
+  .prisistatymas {
+    height: 11rem;
+    padding: 1rem;
+    left: 10rem;
+    margin-top: 15rem; }
+    .prisistatymas h1 {
+      font-size: 2rem;
+      letter-spacing: 0.5rem;
+      line-height: 2.5rem; }
+
+  .foto {
+    height: 28rem; }
+    .foto-juda {
+      height: 28rem; } }
+@media only screen and (min-width: 551px) and (max-width: 700px) {
   #head {
     height: 30rem; }
 
@@ -191,10 +252,10 @@ nav.navbar.shrink {
     padding: 0.9rem 1rem; }
 
   .container {
-    width: 90%;
+    width: 100%;
     padding-right: 0.5rem;
     padding-left: 1;
-    margin-left: 2rem; }
+    margin-left: 0rem; }
 
   .navbar-toggle .icon-bar {
     display: block;
@@ -239,7 +300,129 @@ nav.navbar.shrink {
     height: 30rem; }
     .foto-juda {
       height: 30rem; } }
-@media only screen and (min-width: 901px) and (max-width: 1200px) {
+@media only screen and (min-width: 701px) and (max-width: 805px) {
+  #head {
+    height: 30rem; }
+
+  .navbar-toggle {
+    float: right;
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    border-radius: 0.4rem;
+    padding: 0.9rem 1rem; }
+
+  .container {
+    width: 100%;
+    padding-right: 0.5rem;
+    padding-left: 1;
+    margin-left: 1rem; }
+
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 1px; }
+
+  nav .navbar-toggle {
+    margin: 1.2rem 1.2rem 1.2rem 0; }
+
+  nav.navbar.shrink .navbar-toggle {
+    margin: 0.8rem 0.8rem 0.8rem 0;
+    padding: 0.4rem 0.5rem; }
+
+  .container-fluid > .navbar-collapse,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container > .navbar-header {
+    margin-right: 0;
+    margin-left: 0; }
+
+  .navbar-brand {
+    float: left;
+    height: 5rem;
+    padding: 1.8rem 0 0 0;
+    font-size: 1.8rem;
+    line-height: 2rem; }
+
+  .prisistatymas {
+    height: 13rem;
+    width: 25rem;
+    padding: 1rem;
+    left: 25rem;
+    bottom: 2.5rem; }
+    .prisistatymas h1 {
+      font-size: 2.5rem;
+      margin: 1rem 1rem 3rem 1rem;
+      letter-spacing: 0.6rem;
+      line-height: 2.9rem; }
+
+  .foto {
+    height: 30rem; }
+    .foto-juda {
+      height: 30rem; } }
+@media only screen and (min-width: 806px) and (max-width: 900px) {
+  #head {
+    height: 30rem; }
+
+  .navbar-toggle {
+    float: right;
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    border-radius: 0.4rem;
+    padding: 0.9rem 1rem; }
+
+  .container {
+    width: 100%;
+    padding-right: 0.5rem;
+    padding-left: 1;
+    margin-left: 1rem; }
+
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 1px; }
+
+  nav .navbar-toggle {
+    margin: 1.2rem 1.2rem 1.2rem 0; }
+
+  nav.navbar.shrink .navbar-toggle {
+    margin: 0.8rem 0.8rem 0.8rem 0;
+    padding: 0.4rem 0.5rem; }
+
+  .container-fluid > .navbar-collapse,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container > .navbar-header {
+    margin-right: 0;
+    margin-left: 0; }
+
+  .navbar-brand {
+    float: left;
+    height: 5rem;
+    padding: 1.8rem 0 0 0;
+    font-size: 1.8rem;
+    line-height: 2rem; }
+
+  .prisistatymas {
+    height: 13rem;
+    width: 25rem;
+    padding: 1rem;
+    left: 35rem;
+    bottom: 2.5rem; }
+    .prisistatymas h1 {
+      font-size: 2.5rem;
+      margin: 1rem 1rem 3rem 1rem;
+      letter-spacing: 0.6rem;
+      line-height: 2.9rem; }
+
+  .foto {
+    height: 30rem; }
+    .foto-juda {
+      height: 30rem; } }
+@media only screen and (min-width: 901px) and (max-width: 1000px) {
   #head {
     width: 100%;
     height: 40rem; }
@@ -279,10 +462,11 @@ nav.navbar.shrink {
     padding: 0.9rem 1rem; }
 
   .container {
-    width: 90%;
-    padding-right: 0.5rem;
-    padding-left: 1;
-    margin-left: 2rem; }
+    width: 100%;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    margin-left: 1.5rem; }
 
   .navbar-toggle .icon-bar {
     display: block;
@@ -320,7 +504,497 @@ nav.navbar.shrink {
     position: relative;
     border: 0.2rem solid #ffffff;
     padding: 2rem 2rem 2rem 6rem;
-    left: 25rem; }
+    left: 35rem; }
+    .prisistatymas h1 {
+      width: 100%;
+      letter-spacing: 1rem;
+      line-height: 4rem; }
+
+  .foto {
+    flex: 1;
+    float: right;
+    width: 50%;
+    height: 40rem; }
+    .foto-juda {
+      opacity: 0.8;
+      width: auto;
+      height: 40rem;
+      float: right; } }
+@media only screen and (min-width: 1001px) and (max-width: 1150px) {
+  #head {
+    width: 100%;
+    height: 40rem; }
+
+  .logo {
+    letter-spacing: 0.8rem; }
+
+  nav .navbar-brand {
+    font-size: 2.2rem; }
+  nav .navbar-toggle {
+    margin: 1.3rem 1.3rem 1.3rem 0; }
+  nav a {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    transition: all 0.3s ease;
+    text-align: right; }
+
+  nav.navbar.shrink {
+    min-height: 2rem; }
+    nav.navbar.shrink .navbar-brand {
+      font-size: 1.5rem; }
+    nav.navbar.shrink a {
+      font-size: 1.5rem;
+      padding-bottom: 1rem !important;
+      padding-top: 1rem !important; }
+    nav.navbar.shrink .navbar-toggle {
+      margin: 0.8rem 1.5rem 0.8rem 0;
+      padding: 0.4rem 0.5rem; }
+
+  .navbar-toggle {
+    float: right;
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    border-radius: 0.4rem;
+    padding: 0.9rem 1rem; }
+
+  .container {
+    width: 100%;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    margin-left: 1.5rem; }
+
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 1px; }
+
+  nav .navbar-toggle {
+    margin: 1.2rem 1.2rem 1.2rem 0; }
+
+  nav.navbar.shrink .navbar-toggle {
+    margin: 0.8rem 0.8rem 0.8rem 0;
+    padding: 0.4rem 0.5rem; }
+
+  .container-fluid > .navbar-collapse,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container > .navbar-header {
+    margin-right: 0;
+    margin-left: 0; }
+
+  .navbar-brand {
+    float: left;
+    height: 5rem;
+    padding: 1.8rem 0 0 0;
+    font-size: 1.8rem;
+    line-height: 2rem; }
+
+  .prisistatymas {
+    float: right;
+    text-align: right;
+    height: 17rem;
+    z-index: 20;
+    margin: 17rem 0 0 0;
+    position: relative;
+    border: 0.2rem solid #ffffff;
+    padding: 2rem 2rem 2rem 6rem;
+    left: 45rem; }
+    .prisistatymas h1 {
+      width: 100%;
+      letter-spacing: 1rem;
+      line-height: 4rem; }
+
+  .foto {
+    flex: 1;
+    float: right;
+    width: 50%;
+    height: 40rem; }
+    .foto-juda {
+      opacity: 0.8;
+      width: auto;
+      height: 40rem;
+      float: right; } }
+@media only screen and (min-width: 1151px) and (max-width: 1250px) {
+  #head {
+    width: 100%;
+    height: 40rem; }
+
+  .logo {
+    letter-spacing: 0.8rem; }
+
+  nav .navbar-brand {
+    font-size: 2.2rem; }
+  nav .navbar-toggle {
+    margin: 1.3rem 1.3rem 1.3rem 0; }
+  nav a {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    transition: all 0.3s ease;
+    text-align: right; }
+
+  nav.navbar.shrink {
+    min-height: 2rem; }
+    nav.navbar.shrink .navbar-brand {
+      font-size: 1.5rem; }
+    nav.navbar.shrink a {
+      font-size: 1.5rem;
+      padding-bottom: 1rem !important;
+      padding-top: 1rem !important; }
+    nav.navbar.shrink .navbar-toggle {
+      margin: 0.8rem 1.5rem 0.8rem 0;
+      padding: 0.4rem 0.5rem; }
+
+  .navbar-toggle {
+    float: right;
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    border-radius: 0.4rem;
+    padding: 0.9rem 1rem; }
+
+  .container {
+    width: 100%;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    margin-left: 1.5rem; }
+
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 1px; }
+
+  nav .navbar-toggle {
+    margin: 1.2rem 1.2rem 1.2rem 0; }
+
+  nav.navbar.shrink .navbar-toggle {
+    margin: 0.8rem 0.8rem 0.8rem 0;
+    padding: 0.4rem 0.5rem; }
+
+  .container-fluid > .navbar-collapse,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container > .navbar-header {
+    margin-right: 0;
+    margin-left: 0; }
+
+  .navbar-brand {
+    float: left;
+    height: 5rem;
+    padding: 1.8rem 0 0 0;
+    font-size: 1.8rem;
+    line-height: 2rem; }
+
+  .prisistatymas {
+    float: right;
+    text-align: right;
+    height: 17rem;
+    z-index: 20;
+    margin: 20rem 0 0 0;
+    position: relative;
+    border: 0.2rem solid #ffffff;
+    padding: 2rem 2rem 2rem 6rem;
+    left: 55rem; }
+    .prisistatymas h1 {
+      width: 100%;
+      letter-spacing: 1rem;
+      line-height: 4rem; }
+
+  .foto {
+    flex: 1;
+    float: right;
+    width: 50%;
+    height: 40rem; }
+    .foto-juda {
+      opacity: 0.8;
+      width: auto;
+      height: 40rem;
+      float: right; } }
+@media only screen and (min-width: 1251px) and (max-width: 1350px) {
+  #head {
+    width: 100%;
+    height: 40rem; }
+
+  .logo {
+    letter-spacing: 0.8rem; }
+
+  nav .navbar-brand {
+    font-size: 2.2rem; }
+  nav .navbar-toggle {
+    margin: 1.3rem 1.3rem 1.3rem 0; }
+  nav a {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    transition: all 0.3s ease;
+    text-align: right; }
+
+  nav.navbar.shrink {
+    min-height: 2rem; }
+    nav.navbar.shrink .navbar-brand {
+      font-size: 1.5rem; }
+    nav.navbar.shrink a {
+      font-size: 1.5rem;
+      padding-bottom: 1rem !important;
+      padding-top: 1rem !important; }
+    nav.navbar.shrink .navbar-toggle {
+      margin: 0.8rem 1.5rem 0.8rem 0;
+      padding: 0.4rem 0.5rem; }
+
+  .navbar-toggle {
+    float: right;
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    border-radius: 0.4rem;
+    padding: 0.9rem 1rem; }
+
+  .container {
+    width: 100%;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    margin-left: 1.5rem; }
+
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 1px; }
+
+  nav .navbar-toggle {
+    margin: 1.2rem 1.2rem 1.2rem 0; }
+
+  nav.navbar.shrink .navbar-toggle {
+    margin: 0.8rem 0.8rem 0.8rem 0;
+    padding: 0.4rem 0.5rem; }
+
+  .container-fluid > .navbar-collapse,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container > .navbar-header {
+    margin-right: 0;
+    margin-left: 0; }
+
+  .navbar-brand {
+    float: left;
+    height: 5rem;
+    padding: 1.8rem 0 0 0;
+    font-size: 1.8rem;
+    line-height: 2rem; }
+
+  .prisistatymas {
+    float: right;
+    text-align: right;
+    height: 17rem;
+    z-index: 20;
+    margin: 20rem 0 0 0;
+    position: relative;
+    border: 0.2rem solid #ffffff;
+    padding: 2rem 2rem 2rem 6rem;
+    left: 65rem; }
+    .prisistatymas h1 {
+      width: 100%;
+      letter-spacing: 1rem;
+      line-height: 4rem; }
+
+  .foto {
+    flex: 1;
+    float: right;
+    width: 50%;
+    height: 40rem; }
+    .foto-juda {
+      opacity: 0.8;
+      width: auto;
+      height: 40rem;
+      float: right; } }
+@media only screen and (min-width: 1351px) and (max-width: 1450px) {
+  #head {
+    width: 100%;
+    height: 40rem; }
+
+  .logo {
+    letter-spacing: 0.8rem; }
+
+  nav .navbar-brand {
+    font-size: 2.2rem; }
+  nav .navbar-toggle {
+    margin: 1.3rem 1.3rem 1.3rem 0; }
+  nav a {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    transition: all 0.3s ease;
+    text-align: right; }
+
+  nav.navbar.shrink {
+    min-height: 2rem; }
+    nav.navbar.shrink .navbar-brand {
+      font-size: 1.5rem; }
+    nav.navbar.shrink a {
+      font-size: 1.5rem;
+      padding-bottom: 1rem !important;
+      padding-top: 1rem !important; }
+    nav.navbar.shrink .navbar-toggle {
+      margin: 0.8rem 1.5rem 0.8rem 0;
+      padding: 0.4rem 0.5rem; }
+
+  .navbar-toggle {
+    float: right;
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    border-radius: 0.4rem;
+    padding: 0.9rem 1rem; }
+
+  .container {
+    width: 100%;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    margin-left: 1.5rem; }
+
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 1px; }
+
+  nav .navbar-toggle {
+    margin: 1.2rem 1.2rem 1.2rem 0; }
+
+  nav.navbar.shrink .navbar-toggle {
+    margin: 0.8rem 0.8rem 0.8rem 0;
+    padding: 0.4rem 0.5rem; }
+
+  .container-fluid > .navbar-collapse,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container > .navbar-header {
+    margin-right: 0;
+    margin-left: 0; }
+
+  .navbar-brand {
+    float: left;
+    height: 5rem;
+    padding: 1.8rem 0 0 0;
+    font-size: 1.8rem;
+    line-height: 2rem; }
+
+  .prisistatymas {
+    float: right;
+    text-align: right;
+    height: 17rem;
+    z-index: 20;
+    margin: 20rem 0 0 0;
+    position: relative;
+    border: 0.2rem solid #ffffff;
+    padding: 2rem 2rem 2rem 6rem;
+    left: 75rem; }
+    .prisistatymas h1 {
+      width: 100%;
+      letter-spacing: 1rem;
+      line-height: 4rem; }
+
+  .foto {
+    flex: 1;
+    float: right;
+    width: 50%;
+    height: 40rem; }
+    .foto-juda {
+      opacity: 0.8;
+      width: auto;
+      height: 40rem;
+      float: right; } }
+@media only screen and (min-width: 1451px) and (max-width: 1550px) {
+  #head {
+    width: 100%;
+    height: 40rem; }
+
+  .logo {
+    letter-spacing: 0.8rem; }
+
+  nav .navbar-brand {
+    font-size: 2.2rem; }
+  nav .navbar-toggle {
+    margin: 1.3rem 1.3rem 1.3rem 0; }
+  nav a {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    transition: all 0.3s ease;
+    text-align: right; }
+
+  nav.navbar.shrink {
+    min-height: 2rem; }
+    nav.navbar.shrink .navbar-brand {
+      font-size: 1.5rem; }
+    nav.navbar.shrink a {
+      font-size: 1.5rem;
+      padding-bottom: 1rem !important;
+      padding-top: 1rem !important; }
+    nav.navbar.shrink .navbar-toggle {
+      margin: 0.8rem 1.5rem 0.8rem 0;
+      padding: 0.4rem 0.5rem; }
+
+  .navbar-toggle {
+    float: right;
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    border-radius: 0.4rem;
+    padding: 0.9rem 1rem; }
+
+  .container {
+    width: 100%;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    margin-left: 1.5rem; }
+
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 1px; }
+
+  nav .navbar-toggle {
+    margin: 1.2rem 1.2rem 1.2rem 0; }
+
+  nav.navbar.shrink .navbar-toggle {
+    margin: 0.8rem 0.8rem 0.8rem 0;
+    padding: 0.4rem 0.5rem; }
+
+  .container-fluid > .navbar-collapse,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container > .navbar-header {
+    margin-right: 0;
+    margin-left: 0; }
+
+  .navbar-brand {
+    float: left;
+    height: 5rem;
+    padding: 1.8rem 0 0 0;
+    font-size: 1.8rem;
+    line-height: 2rem; }
+
+  .prisistatymas {
+    float: right;
+    text-align: right;
+    height: 17rem;
+    z-index: 20;
+    margin: 20rem 0 0 0;
+    position: relative;
+    border: 0.2rem solid #ffffff;
+    padding: 2rem 2rem 2rem 6rem;
+    left: 85rem; }
     .prisistatymas h1 {
       width: 100%;
       letter-spacing: 1rem;
@@ -530,7 +1204,7 @@ form {
     margin: 0.5rem; }
   .icons .i-mail-pic {
     position: relative;
-    background-image: url("./img/mail-button.png");
+    background-image: url("../img/mail-button.png");
     background-size: contain;
     background-color: transparent;
     background-repeat: no-repeat;
@@ -539,7 +1213,7 @@ form {
     width: 7rem; }
   .icons .i-git-pic {
     position: relative;
-    background-image: url("./img/github-button.png");
+    background-image: url("../img/github-button.png");
     background-size: contain;
     background-color: transparent;
     background-repeat: no-repeat;
