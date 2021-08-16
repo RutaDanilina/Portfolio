@@ -1104,7 +1104,7 @@ nav.navbar.shrink {
     font-size: 0.9rem; }
     .card img {
       height: 6rem; } }
-@media only screen and (min-width: 600px) and (max-width: 900px) {
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
   .sklills-tekstas {
     margin: 4rem 0 2rem 2rem; }
     .sklills-tekstas h1 {
@@ -1116,7 +1116,7 @@ nav.navbar.shrink {
     font-size: 1.1rem; }
     .card img {
       height: 6rem; } }
-@media only screen and (min-width: 901px) and (max-width: 1900px) {
+@media only screen and (min-width: 1201px) and (max-width: 1900px) {
   .card {
     width: 22rem;
     font-size: 2rem;
@@ -1188,7 +1188,7 @@ nav.navbar.shrink {
     height: 2.5rem;
     width: 2.5rem;
     font-size: 1.5rem; } }
-@media only screen and (min-width: 600px) and (max-width: 900px) {
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
   #darbai h1 {
     font-size: 3rem;
     letter-spacing: 0.4rem; }
@@ -1197,7 +1197,7 @@ nav.navbar.shrink {
     height: 3.5rem;
     width: 3.5rem;
     font-size: 1.8rem; } }
-@media only screen and (min-width: 901px) and (max-width: 1900px) {
+@media only screen and (min-width: 1201px) and (max-width: 1900px) {
   #darbai {
     height: 60rem; }
 
