@@ -104,3 +104,55 @@
     }
   }
 }
+
+@media only screen and (min-width: 901px) and (max-width: 1900px) {
+  #darbai {
+    height: 60rem;
+  }
+
+  #section_abbout-us {
+    height: 40rem;
+
+    video {
+      width: 100%;
+    }
+
+    .slider {
+      height: 40rem;
+
+      top: 15rem;
+    }
+
+    .slide {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 30rem;
+    }
+
+    .slider__btn {
+      position: absolute;
+      top: 30%;
+      z-index: 10;
+      border: none;
+      background: $-light-2;
+      font-family: inherit;
+      color: $-dark-1;
+      border-radius: 50%;
+      height: 5rem;
+      width: 5rem;
+      font-size: 3.5rem;
+      cursor: pointer;
+    }
+
+    .slider__btn--left {
+      left: 5%;
+      transform: translate(-50%, -50%);
+    }
+
+    .slider__btn--right {
+      right: 5%;
+      transform: translate(50%, -50%);
+    }
+  }
+}

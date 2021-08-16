@@ -1295,3 +1295,76 @@ nav.navbar.shrink {
     }
   }
 }
+
+@media only screen and (min-width: 1501px) and (max-width: 1900px) {
+  #head {
+    width: 100%;
+    height: 80rem;
+  }
+
+  //navis
+  .logo {
+    letter-spacing: 1.5rem;
+  }
+
+  nav {
+    .navbar-brand {
+      font-size: 3rem;
+    }
+    .navbar-toggle {
+      margin: 2rem 2rem 2rem 0;
+    }
+    a {
+      font-size: 2.5rem;
+    }
+  }
+
+  nav.navbar.shrink {
+    min-height: 2.5rem;
+    .navbar-brand {
+      font-size: 2rem;
+    }
+    a {
+      font-size: 2rem;
+    }
+    .navbar-toggle {
+      margin: 0.8rem 1.5rem 0.8rem 0;
+      padding: 0.4rem 0.5rem;
+    }
+  }
+
+  //header
+  .prisistatymas {
+    float: right;
+    text-align: right;
+    height: 35rem;
+    width: 50rem;
+    z-index: 20;
+    margin: 32rem 0 0 0;
+    position: relative;
+    border: 0.6rem solid $-light-1;
+    padding: 5rem 2rem 4rem 6rem;
+    left: 75rem;
+
+    h1 {
+      width: 100%;
+      letter-spacing: 1rem;
+      line-height: 4.5rem;
+      font-weight: 700;
+    }
+  }
+
+  .foto {
+    flex: 1;
+    float: right;
+    width: 50%;
+    height: 80rem;
+
+    &-juda {
+      opacity: 0.8;
+      width: auto;
+      height: 80rem;
+      float: right;
+    }
+  }
+}
