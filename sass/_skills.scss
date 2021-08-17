@@ -77,7 +77,19 @@
   }
 }
 
-@media only screen and (min-width: 1201px) and (max-width: 1900px) {
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+  .card {
+    width: 15rem;
+    font-size: 1.8rem;
+    margin: 1.5rem;
+
+    img {
+      height: 8rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 1501px) and (max-width: 2500px) {
   .card {
     width: 22rem;
     font-size: 2rem;
