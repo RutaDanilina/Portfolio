@@ -254,7 +254,7 @@ nav.navbar.shrink {
   .container {
     width: 100%;
     padding-right: 0.5rem;
-    padding-left: 1;
+    padding-left: 1rem;
     margin-left: 0rem; }
 
   .navbar-toggle .icon-bar {
@@ -315,7 +315,7 @@ nav.navbar.shrink {
   .container {
     width: 100%;
     padding-right: 0.5rem;
-    padding-left: 1;
+    padding-left: 1rem;
     margin-left: 1rem; }
 
   .navbar-toggle .icon-bar {
@@ -376,7 +376,7 @@ nav.navbar.shrink {
   .container {
     width: 100%;
     padding-right: 0.5rem;
-    padding-left: 1;
+    padding-left: 1rem;
     margin-left: 1rem; }
 
   .navbar-toggle .icon-bar {
