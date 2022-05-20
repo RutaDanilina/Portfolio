@@ -346,7 +346,7 @@ nav.navbar.shrink {
     line-height: 2rem; }
 
   .prisistatymas {
-    height: 13rem;
+    /* height: 13rem; */
     width: 25rem;
     padding: 1rem;
     left: 25rem;
